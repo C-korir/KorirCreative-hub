@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/portfolio/Navbar";
+import HeroSection from "@/components/portfolio/HeroSection";
+import ExperienceSection from "@/components/portfolio/ExperienceSection";
+import SkillsSection from "@/components/portfolio/SkillsSection";
+import ProjectsSection from "@/components/portfolio/ProjectsSection";
+import CollaborationsSection from "@/components/portfolio/CollaborationsSection";
+import ContactSection from "@/components/portfolio/ContactSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <HeroSection />
+      <ExperienceSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <CollaborationsSection />
+      <ContactSection />
+
+      <footer className="py-8 px-6 border-t border-border/50 text-center">
+        <p className="text-muted-foreground text-sm">
+          © {new Date().getFullYear()} Collins Korir. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 };
