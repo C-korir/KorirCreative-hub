@@ -71,7 +71,7 @@ const ContactSection = () => {
             </div>
             <div className="text-left">
               <p className="text-xs text-muted-foreground">Location</p>
-              <p className="text-sm font-medium text-foreground">Kapsabet, Kenya</p>
+              <p className="text-sm font-medium text-foreground">Nairobi, Kenya</p>
             </div>
           </div>
         </motion.div>

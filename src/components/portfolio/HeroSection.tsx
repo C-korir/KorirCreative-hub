@@ -25,8 +25,9 @@ const HeroSection = () => {
             <span className="text-gradient">Korir</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-            IT Professional & Project Manager — Building scalable web applications,
-            managing projects, and solving real-world challenges with technology.
+            Hi, I'm Collins — a passionate developer and project manager ready to
+            bring your ideas to life. I craft scalable web & mobile applications,
+            streamline workflows, and turn complex challenges into elegant solutions.
           </p>
         </motion.div>
 
@@ -61,7 +62,7 @@ const HeroSection = () => {
           className="flex flex-wrap justify-center gap-6 text-muted-foreground text-sm"
         >
           <span className="flex items-center gap-1.5">
-            <MapPin size={14} className="text-primary" /> Kapsabet, Kenya
+            <MapPin size={14} className="text-primary" /> Nairobi, Kenya
           </span>
           <span className="flex items-center gap-1.5">
             <Phone size={14} className="text-primary" /> +254740676371
