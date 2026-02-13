@@ -7,7 +7,7 @@ const skillCategories = [
   },
   {
     title: "Tools & Platforms",
-    skills: ["Anaconda", "Google Colab", "Visual Studio", "Canva", "Adobe Illustrator", "GitHub"],
+    skills: ["Anaconda", "Google Colab", "Visual Studio", "Canva", "Adobe Illustrator", "GitHub", "Supabase", "MySQL", "Firebase", "IBM SPSS", "Trello", "Excel", "Wireshark", "Android Studio"],
   },
   {
     title: "Data & AI",
