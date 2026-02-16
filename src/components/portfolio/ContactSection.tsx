@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -62,6 +62,21 @@ const ContactSection = () => {
             <div className="text-left">
               <p className="text-xs text-muted-foreground">GitHub</p>
               <p className="text-sm font-medium text-foreground">C-korir</p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/collins-kipkemoi-74b03525a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 p-5 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 group"
+          >
+            <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+              <Linkedin size={18} className="text-primary" />
+            </div>
+            <div className="text-left">
+              <p className="text-xs text-muted-foreground">LinkedIn</p>
+              <p className="text-sm font-medium text-foreground">View Profile</p>
             </div>
           </a>
 
